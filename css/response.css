@@ -551,6 +551,7 @@
 .accordian ::after {
   left: 2% !important;
   width: 691px !important;
+  top: 60.4% !important;
 }
 
 .questionshpae img {
@@ -559,6 +560,7 @@
 .quetionText h5 {
   padding-left: 2rem !important;
   font-size: 15px !important;
+  width: 647px !important;
 }
 
 .quetionText span {
@@ -1002,6 +1004,8 @@ left: 36.5% !important;
 .quetionText h5 {
   padding-left: 2rem !important;
   font-size: 15px !important;
+  width: 485px !important;
+  padding-top: 26px !important;
 }
 
 .quetionText span {
@@ -2104,8 +2108,8 @@ top: 30px !important;
 }
 .accordian ::after {
   left: 2% !important;
-  width: 339px !important;
-  top: 41% !important;
+    width: 339px !important;
+    top: 46% !important;
 }
 
 .questionshpae img {
@@ -2113,9 +2117,10 @@ top: 30px !important;
   width: 347px;
 }
 .quetionText h5 {
-  padding-left: 0rem !important;
+  padding-left: 1rem !important;
   font-size: 15px !important;
   padding-top: 27px !important;
+  width: 344px !important;
 }
 
 .quetionText span {
@@ -2647,8 +2652,8 @@ top: 30px !important;
 }
 .accordian ::after {
   left: 1% !important;
-    width: 309px !important;
-    top: 43% !important;
+  width: 309px !important;
+  top: 47% !important;
 }
 
 .questionshpae img {
@@ -2656,9 +2661,10 @@ top: 30px !important;
   width: 317px;
 }
 .quetionText h5 {
-  padding-left: 0rem !important;
+  padding-left: 1rem !important;
   font-size: 15px !important;
   padding-top: 18px !important;
+  width: 306px !important;
 }
 
 .quetionText span {

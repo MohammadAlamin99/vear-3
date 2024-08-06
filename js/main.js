@@ -30,17 +30,17 @@ document.addEventListener('DOMContentLoaded', function() {
       var content = header.nextElementSibling;
       var icon = header.querySelector('i');
       content.style.display = 'none'; 
-      icon.classList.add('fa-chevron-up'); 
+      icon.classList.add('fa-chevron-down'); 
 
       header.addEventListener('click', function() {
           if (content.style.display === 'none' || content.style.display === '') {
               content.style.display = 'block';
-              icon.classList.remove('fa-chevron-up');
-              icon.classList.add('fa-chevron-down');
-          } else {
-              content.style.display = 'none';
               icon.classList.remove('fa-chevron-down');
               icon.classList.add('fa-chevron-up');
+          } else {
+              content.style.display = 'none';
+              icon.classList.remove('fa-chevron-up');
+              icon.classList.add('fa-chevron-down');
           }
       });
   });
